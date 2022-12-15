@@ -1,0 +1,496 @@
+@font-face {
+    font-family: 'SodoSans';
+    src: url(Images/SoDoSans-Regular.ttf);
+}
+
+*{
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 102px;
+    /* background-color: turquoise; */
+    display: flex;
+    
+}
+.logo{
+    
+    width: 3.8%;
+    padding-top: 24px;
+    padding-left: 36px;
+}
+.nav-text li{
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    list-style: none;
+    margin-left: 20px;
+    display: inline;
+    font-family: 'SodoSans';
+    
+}
+.nav-text ul{
+    margin-left: -24px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.nav-space{
+    /* background-color: chartreuse; */
+    width: 500px;
+}
+.nav-end{
+    display: flex;
+    width: 24px;
+    padding-top: 38px;
+    padding-left: 5px;
+    
+}
+.nav-end img{
+    width: 20px;
+    height: 32px;
+    margin-top: -8px;
+    margin-left: -13px;
+}
+ .nav-endleft{
+    display: flex;
+    height: 110px;
+    width: 110px;
+ }
+ .nav-endleft p{
+    margin-left: 9px;
+    font-size: 13px;
+    width: 103px;
+    font-family: 'SoDoSans';
+    font-weight: 600;
+ }
+.nav-btn{
+    display: flex;
+}
+.btn-1{
+    margin-left: 14px;
+    height: 26px;
+    width: 75px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    cursor: pointer;
+    border-width: 1px;
+}
+.btn-1:hover{
+    background-color: rgba(0, 0, 0,0.05);
+    
+}
+.btn-2{
+    margin-left: 15px;
+    height: 26px;
+    width: 90px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color:#000;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: rgb(49, 49, 49);
+}
+
+
+.space{
+    width: 100%;
+    height: 30px;
+    /* background-color: rgb(0, 0, 0); */
+}
+.section-1{
+    width: 100%;
+    height: 590px;
+}
+.card-1{
+    width: 50%;
+    height: 590px;
+    float: left;
+}
+.card-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-2{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color:#1e3932;
+    text-align: center;
+}
+.card-2 h1{
+    color: #ffff;
+    margin-top: 136px;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: 'SodoSans';
+}
+.card-2 p{
+    margin-top: 25px;
+    line-height: 1.5;
+    color: #ffff;
+    font-size: 24px;
+    font-family: 'SodoSans';
+}
+.card-2 button{
+    height: 34px;
+    width: 105px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 16px;
+    border-color: #ffff;
+    border: solid;
+    border-width: 1.3px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.section-2{
+    width: 100%;
+    height: 590px;
+}
+.card-3{
+    width: 50%;
+    height: 100%;
+    background-color: #1e3932;
+    float: left;
+    text-align: center;
+    color: #ffff;
+    font-family: 'SodoSans';
+
+}
+.card-3 h1{
+    margin-top: 187px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.card-3 p{
+    font-size: 24px;
+    line-height: 1.4;
+    margin-top: 20px;
+
+}
+.card-3 button{
+    height: 34px;
+    width: 100px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 38px;
+    border-color: #ffff;
+    border: solid;
+    border-width: 1.3px;
+    font-size: 15px;
+    font-weight: 600;
+    
+
+}
+
+.card-4 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #1e3932;
+}
+.card-4 img{
+    width: 100%;
+    height: 100%;
+}
+.section-3{
+    width: 100%;
+    height: 393px;
+}
+.card-5{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.card-5 img{
+    width: 100%;
+    height: 393px;
+}
+.card-6{
+    width: 50%;
+    height: 393px;
+    float: left;
+    background-color: #d50032;
+    text-align: center;
+    color: #ffff;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.card-6 h1{
+    margin-top: 101px;
+    font-size: 26px;
+ 
+}
+.card-6 p{
+    margin-top: 35px;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    line-height: 1.6;
+}
+.card-6 button{
+    height: 40px;
+    width: 115px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 23px;
+    border-color: #ffff;
+    border: solid;
+    border-width: 1.3px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.section-4{
+    width: 100%;
+    height: 393px;
+}
+.card-7{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #1e3932;
+    text-align: center;
+    color: #ffff;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.card-7 h1{
+    margin-top: 110px;
+    font-size: 26px;
+}
+.card-7 p{
+    margin-top: 35px;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    line-height: 1.8;
+}
+.card-7 button{
+    height: 34px;
+    width: 96px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 16px;
+    border-color: #ffff;
+    border: solid;
+    border-width: 1.3px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.card-8{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: darksalmon;
+}
+.card-8 img{
+    width: 100%;
+    height: 100%;
+}
+.section-5{
+    width: 100%;
+    height: 393px;
+}
+.card-9{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.card-9 img{
+    width: 100%;
+    height: 100%;
+    background-color: #016341;
+}
+.card-10{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #016341;
+    text-align: center;
+    color: #ffff;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.card-10 h1{
+    margin-top: 87px;
+    font-size: 25px;
+}
+.card-10 p{
+    margin-top: 35px;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    line-height: 1.8;
+}
+.card-10 button{
+    height: 34px;
+    width: 96px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 16px;
+    border-color: #ffff;
+    border: solid;
+    border-width: 1.3px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.section-6{
+    width: 100%;
+    height: 393px;
+}
+.card-11{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #1e3833;
+    text-align: center;
+    color: #ffff;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.card-11 h2{
+    margin-top: 87px;
+    font-size: 25px;
+}
+.card-11 p{
+    margin-top: 35px;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    line-height: 1.8;
+}
+.card-11 button{
+    height: 34px;
+    width: 96px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 16px;
+    border-color: #ffff;
+    border: solid;
+    border-width: 1.3px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.card-12{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.card-12 img{
+    width: 100%;
+    height: 100%;
+}
+.foot-1{
+    width: 100%;
+    height: 163px;
+    text-align: center;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'SodoSans';
+    font-size: 14px;
+}
+
+.foot-2{
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    /* background-color: rgb(255, 178, 134); */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'SodoSans';
+    font-size: 14px;
+}
+.foot-3{
+    width: 100%;
+    height: 116px;
+    text-align: center;
+    /* background-color: rgb(0, 255, 98); */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'SodoSans';
+    font-size: 14px;
+}
+.foot-4{
+    width: 100%;
+    height: 89px;
+    text-align: center;
+    /* background-color: rgb(81, 131, 224); */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'SodoSans';
+    font-size: 14px;
+}
+.foot-5{
+    width: 100%;
+    height: 96px;
+    text-align: center;
+    /* background-color: rgb(221, 108, 142); */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'SodoSans';
+    font-size: 14px;
+}
+
+
+.foot-list{
+    display: flex;
+}
+.foot-list ul{
+    list-style: none;
+    font-family: 'SodoSans';
+    margin-top: 25px;
+}
+.foot-list li{
+    color:rgba(0,0,0,.58);
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.foot-list h4{
+    color: rgba(0,0,0,.70);
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.social-icons{
+   display: flex;
+   padding-left: 30px;
+}
+.icons img{
+    width: 33px;
+    margin-left: 10px;
+}
+
+.footer ul{
+    list-style: none; 
+    padding-left: 17px;
+}
+.footer li{
+    float: left;
+    padding-left: 22px;
+    font-size: 14px;
+    font-family: 'SodoSans';
+}
+.last-line{
+    margin-left: 35px;
+    font-family: 'SoDoSans';
+    opacity: 50%;
+    font-size: 13px;
+}
+.hr-line{
+    width: 90%;
+    margin-left: 45px;
+    opacity: 50%;
+}
